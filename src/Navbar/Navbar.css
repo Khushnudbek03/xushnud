@@ -1,0 +1,54 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor: #00a532;
+	--secondaryColor: #db2b39;
+	--textColor: #eee;
+}
+Button{
+	width: 275px;
+	
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100px;
+	padding: 0 2rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+}
+
+nav a {
+	margin: 0 1rem;
+	text-decoration: none;
+}
+
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	/* background: transparent; */
+	border: none;
+	outline: none;
+	/* color: var(--textColor); */
+	visibility: hidden;
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+.userImg
+{
+    margin-right: 10px;
+}
